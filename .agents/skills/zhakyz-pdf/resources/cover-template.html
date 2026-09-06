@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>{{TITLE}} - Portada</title>
+  <style>
+    {{STYLES_CSS}}
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="cover-page">
+    <header class="cover-header-bar">
+      <div class="cover-header-company">
+        <span class="company-name">{{ORGANIZATION}}</span>
+        <span class="company-tagline">{{SLOGAN}}</span>
+      </div>
+      <div class="cover-header-logo">
+        <img src="{{LOGO_SRC}}" alt="Logo {{ORGANIZATION}}" class="header-logo-img">
+      </div>
+      <div class="cover-header-subject">
+        <span class="subject-label">Temática</span>
+        <span class="subject-name">{{AREA}}</span>
+      </div>
+    </header>
+
+    <div class="cover-main-content">
+      <div class="cover-title-group">
+        <h1 class="cover-title">{{TITLE}}</h1>
+        <div class="cover-divider"></div>
+        <p class="cover-subtitle">{{SUBTITLE}}</p>
+      </div>
+
+      <div class="cover-metadata-card">
+        <div class="cover-meta-item">
+          <span class="cover-meta-label">Área / Cátedra</span>
+          <span class="cover-meta-value">{{AREA}}</span>
+        </div>
+        <div class="cover-meta-item">
+          <span class="cover-meta-label">Autor(es) / Responsable</span>
+          <span class="cover-meta-value">{{AUTHOR}}</span>
+        </div>
+        <div class="cover-meta-item">
+          <span class="cover-meta-label">Fecha de Emisión</span>
+          <span class="cover-meta-value">{{DATE}}</span>
+        </div>
+        <div class="cover-meta-item">
+          <span class="cover-meta-label">Versión / Estado</span>
+          <span class="cover-meta-value">{{VERSION}}</span>
+        </div>
+      </div>
+    </div>
+
+    <footer class="cover-footer">
+      <span>{{CONFIDENTIAL_TEXT}}</span>
+      <span class="cover-footer-contact">{{CONTACT_EMAIL}}</span>
+    </footer>
+  </div>
+</body>
+</html>
