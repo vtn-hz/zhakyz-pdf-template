@@ -48,13 +48,13 @@ Los documentos generados deben transmitir profesionalismo, pulcritud, rigor acad
 Todo documento formal ensamblado bajo la marca Zhakyz debe contener:
 
 1. **Portada Institucional (Cover Page):**
-   - **Cabecera integrada tripartita:** Nombre de la empresa a la izquierda (`ZHAKYZ & ASOCIADOS`), logotipo en el centro, y temática / cátedra a la derecha (`ADMINISTRACIÓN EMPRESARIAL`), con línea divisoria inferior.
+   - **Cabecera integrada tripartita:** Nombre de la empresa a la izquierda (`ZHAKYZ & ASOCIADOS`), logotipo circular en el centro, y temática / cátedra a la derecha (`ADMINISTRACIÓN EMPRESARIAL`), con línea divisoria inferior.
    - **Cuerpo de portada:** Título principal del informe (H1, tipografía sobria e imponente), subtítulo descriptivo o resumen de alcance, barra de acento.
    - **Bloque de metadatos:** Área / Cátedra, Autor(es) / Responsable, Fecha de emisión y Versión / Estado.
    - **Pie de portada:** Aviso de confidencialidad/propiedad y correo `zhakyzasociados@gmail.com`.
 
 2. **Cuerpo del Documento (Body Content):**
-   - **Encabezado superior (*Running Header*):** Marca "ZHAKYZ & ASOCIADOS" a la izquierda, isotipo oficial en el centro, y temática a la derecha, delimitados por línea divisoria fina (`#E2E8F0`).
+   - **Encabezado superior (*Running Header*):** Marca "ZHAKYZ & ASOCIADOS" a la izquierda, isotipo oficial circular en el centro, y temática a la derecha, delimitados por línea divisoria fina (`#E2E8F0`).
    - **Pie de página inferior (*Running Footer*):** Correo de contacto oficial a la izquierda y numeración formal de páginas a la derecha (*"Página X de Y"*).
    - **Elementos enriquecidos:** Tablas estilizadas, bloques de alerta/destacados (*Callout boxes*), tarjetas de KPIs, diagramas Mermaid y listas ejecutivas.
 

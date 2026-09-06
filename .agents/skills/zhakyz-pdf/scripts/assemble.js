@@ -319,7 +319,7 @@ async function renderBodyPdf(page, bodyHtml, options, stylesCss, hasMermaid, log
     <div style="font-family: 'Inter', -apple-system, sans-serif; font-size: 7.5pt; width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 0 20mm; color: #64748B; border-bottom: 1px solid #E2E8F0; padding-bottom: 4px; box-sizing: border-box;">
       <span style="font-weight: 800; letter-spacing: 0.8px; color: #0F172A; text-transform: uppercase; flex: 1; text-align: left;">${options.organization}</span>
       <div style="flex: 0 0 auto; display: flex; align-items: center; justify-content: center; padding: 0 10px;">
-        <img src="${logoDataUri}" style="height: 16px; width: auto; object-fit: contain; display: block;" />
+        <img src="${logoDataUri}" style="height: 18px; width: 18px; border-radius: 50%; object-fit: cover; display: block; border: 1px solid #E2E8F0;" />
       </div>
       <span style="font-weight: 600; color: #475569; flex: 1; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${options.area}</span>
     </div>
