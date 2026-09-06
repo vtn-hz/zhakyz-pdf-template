@@ -534,9 +534,10 @@ blockquote p:last-child {
 }
 
 .mermaid svg {
-  min-width: 60%;
-  max-width: 95% !important;
+  max-width: 98% !important;
+  max-height: 280pt !important;
   height: auto !important;
+  width: auto !important;
 }
 
 /* Código y Datos */
@@ -577,9 +578,26 @@ pre code {
   break-after: page;
 }
 
-.avoid-break {
+.avoid-break,
+.question-block {
   break-inside: avoid;
   page-break-inside: avoid;
+}
+
+.question-block {
+  margin-bottom: 16pt;
+  padding-bottom: 10pt;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.question-block:last-child {
+  border-bottom: none;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 16pt 0;
 }
 
 /* Bloque de Firmas y Validación */
