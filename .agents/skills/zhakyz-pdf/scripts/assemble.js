@@ -58,7 +58,9 @@ function findContextFile(customPath) {
 
   fileNames.forEach(fn => {
     candidates.push(path.resolve(process.cwd(), fn));
+    candidates.push(path.resolve(process.cwd(), 'zhakyz-pdf-template', fn));
     candidates.push(path.resolve(SKILL_ROOT, '..', '..', fn));
+    candidates.push(path.resolve(SKILL_ROOT, '..', '..', '..', fn));
     candidates.push(path.resolve(SKILL_ROOT, fn));
   });
 
@@ -120,7 +122,9 @@ function getLogoBase64(logoPath) {
   const candidates = [
     logoPath,
     path.resolve(process.cwd(), 'zhakyz-logo.jpg'),
-    path.resolve(SKILL_ROOT, '..', '..', 'zhakyz-logo.jpg')
+    path.resolve(process.cwd(), 'zhakyz-pdf-template', 'zhakyz-logo.jpg'),
+    path.resolve(SKILL_ROOT, '..', '..', 'zhakyz-logo.jpg'),
+    path.resolve(SKILL_ROOT, '..', '..', '..', 'zhakyz-logo.jpg')
   ];
   for (const c of candidates) {
     if (c && fs.existsSync(c)) {
